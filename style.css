@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css?family=Indie+Flower");
+body{
+    font-size: larger;
+    font-family: 'Indie Flower';
+    font-style: normal;
+}
+h1{
+  font-weight: bolder;
+}
+hr{
+    height: 0px;
+    border: 2px double black;
+    background-color: rgb(129, 129, 129);
+}
+
+th,tr,td{
+    background-color: #7fffd3;
+}
+tr>th{
+    color: rgb(238, 21, 21);
+}
+tr>td{
+    font-weight: bold;
+}
+caption{
+    position: absolute;
+    top: 430px;
+    left: 130px;
+    font-weight: bold;
+    font-size: 20px;
+}
